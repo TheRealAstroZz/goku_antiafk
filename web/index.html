@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Anti‑AFK Captcha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="overlay" class="hidden">
+    <div id="panel" class="modern">
+      <header>
+        <h1 id="title">ANTI‑AFK</h1>
+        <span id="servername"></span>
+      </header>
+      <p id="desc"></p>
+
+      <div id="captchaWrap">
+        <div id="captcha" class="captcha default"></div>
+        <div id="timer"></div>
+      </div>
+
+      <div class="inputRow">
+        <input id="input" type="text" autocomplete="off" spellcheck="false" placeholder="Type captcha here"/>
+        <button id="confirm"></button>
+      </div>
+
+      <div class="actions">
+        <button id="cancel" class="ghost hidden">Cancel</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
