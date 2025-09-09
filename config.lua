@@ -18,7 +18,7 @@ Config.ExemptPermissions = {
     -- "command.bypassafk"
 }
 
-Config.Webhook = "https://discord.com/api/webhooks/1413561304991535255/xF7YSpgXGkbFhmReqhvW6I4rBHsF-h9xb34rh9kX8-HsPAR2VBPnVUjVR7SOKcYzpbAN" -- wenn leer, nutzt das Script den ConVar goku_antiafk_webhook
+Config.Webhook = "https://discord.com/api/webhooks/" -- wenn leer, nutzt das Script den ConVar goku_antiafk_webhook
 Config.WebhookAvatar = "https://i.postimg.cc/WbQxXbM4/I-never-realized-you-couldn-t-upload-your-own-avatar-Imgur.jpg"
 Config.WebhookLogo   = Config.WebhookAvatar  -- Author/Thumbnail/Footer-Logo
 
